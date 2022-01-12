@@ -14,25 +14,6 @@ body{
     vertical-align: middle;
 }
 
-#activity::before {
-    content: "Hit any key on your keyboard";
-    position: absolute;
-    top: -1;
-    left: 0;
-    width: 100vw;
-    height: 10vh;
-    background: rgba(10, 10, 10, 10);
-}
-
-#activity::after {
-    content: "test";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100vw;
-    height: 12vh;
-}
-
 #result{
     text-transform: uppercase;
 }
